@@ -1,0 +1,5 @@
+print('\033[34m===ALUGUEL DE CARRO===\033[m')
+day = int(input('Quantos dias ficou com o carro? '))
+km = float(input('Quantos KM percorreu? '))
+result = (day * 60) + (km * 0.15)
+print(f'\033[32mO aluguel do carro lhe custou {result:.2f} R$\033[m')
